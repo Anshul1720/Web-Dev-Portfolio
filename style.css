@@ -1,0 +1,426 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+
+.navbar {
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1.5rem;
+}
+
+.navbar a {
+  color: #4e525a;
+  text-align: center;
+  font-weight: 550;
+  font-size: 1.125rem;
+  text-decoration: none;
+}
+
+.middle-text {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+.navbar .middle-text a:nth-child(1) {
+  color: #6e06f2;
+}
+
+.navbar .middle-text a:nth-child(1):hover {
+  color: #24262f;
+}
+
+.chat-icon {
+  width: 50px;
+  height: 50px;
+}
+
+.navbar a:hover {
+  color: #24262f;
+}
+
+.text-container {
+  margin-top: 10rem;
+  width: 50%;
+}
+
+.small-text1 {
+  font-size: 1.5rem;
+  color: #4e525a;
+}
+
+.small-text2 {
+  font-size: 1.5rem;
+  color: #4e525a;
+  width: 100%;
+  margin-top: -3rem;
+}
+
+.big-text1 {
+  font-size: 5.625rem;
+  margin-top: -2.2rem;
+}
+
+.big-text1 .blue {
+  color: #6e06f2;
+}
+
+.big-text2 {
+  font-size: 5.625rem;
+  margin-top: -6.5rem;
+}
+
+.buttons {
+  display: flex;
+  justify-content: flex-start;
+  gap: 1.5rem;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.buttons button {
+  cursor: pointer;
+}
+
+.buttons button:nth-child(1) {
+  background-color: #24262f;
+  color: white;
+  padding: 13px;
+  border-radius: 10px;
+  border-style: none;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.buttons button:nth-child(2) {
+  background-color: #ebebeb;
+  color: #24262f;
+  padding: 13px;
+  border-radius: 10px;
+  border-style: none;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.circle-container {
+  width: 425px;
+  height: 425px;
+  border: 1px solid rgba(110, 6, 242, 0.4);
+  border-radius: 500px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8rem;
+  gap: 50px;
+}
+
+.circle-image {
+  width: 80%;
+  height: 80%;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+}
+
+.second-heading {
+  margin-top: 15rem;
+  font-size: 3.5rem;
+}
+
+.second-heading .blue {
+  color: #6e06f2;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  transition: all 0.3s;
+  height: 2rem;
+  cursor: pointer;
+}
+
+.project-title:hover span {
+  font-size: 1.6rem;
+  position: absolute;
+  height: 2rem;
+  transform: translateY(-0.2rem);
+}
+
+.all-projects {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-1-4 {
+  width: 27rem;
+  height: 18rem;
+  border-radius: 20px;
+}
+
+.project-2-3 {
+  width: 45rem;
+  height: 18rem;
+  border-radius: 20px;
+}
+
+.project-1-4,
+.project-2-3 {
+  background-size: cover;
+  background-position: center;
+}
+
+.project-1-4-desc {
+  font-size: 1.125rem;
+  font-weight: 400;
+  color: #4e525a;
+  margin-top: -1rem;
+  width: 27rem;
+}
+
+.project-2-3-desc {
+  font-size: 1.125rem;
+  font-weight: 400;
+  color: #4e525a;
+  margin-top: -1rem;
+  width: 45rem;
+}
+
+.third-heading {
+  margin-top: 8rem;
+  font-size: 3.5rem;
+}
+
+.third-heading .blue {
+  color: #6e06f2;
+}
+
+.experience {
+  display: flex;
+}
+.companies {
+  flex: 1;
+}
+.details {
+  flex: 2;
+}
+.companies-list {
+  list-style-type: none;
+  padding: 0;
+}
+.company {
+  cursor: pointer;
+}
+
+.fourth-heading {
+  margin-top: 8rem;
+  font-size: 3.5rem;
+}
+
+.fourth-heading .blue {
+  color: #6e06f2;
+}
+
+.category {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #24262f;
+}
+
+.skill {
+  color: #4e525a;
+  font-size: 1.125rem;
+  font-weight: 400;
+  margin-top: -1rem;
+}
+
+.all-skills {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fifth-heading {
+  margin-top: 8rem;
+  font-size: 3.5rem;
+  margin-bottom: 2rem;
+}
+
+.fifth-heading .blue {
+  color: #6e06f2;
+}
+
+.story {
+  font-size: 1.125rem;
+  color: #4e525a;
+}
+
+.story .blue {
+  color: #6e06f2;
+}
+
+.navbar-bottom {
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10rem;
+}
+
+.navbar-bottom a {
+  color: #4e525a;
+  text-align: center;
+  font-weight: 550;
+  font-size: 1.125rem;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.navbar-bottom a:last-child {
+  margin-right: 0;
+}
+
+.middle-text {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+.navbar-bottom .middle-text a:nth-child(1) {
+  color: #6e06f2;
+}
+
+.navbar-bottom .middle-text a:nth-child(1):hover {
+  color: #24262f;
+}
+
+.chat-icon {
+  width: 25px;
+  height: 25px;
+}
+
+.navbar-bottom a:hover {
+  color: #24262f;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-text {
+  font-size: 1.375rem;
+  color: #4e525a;
+  font-weight: 600;
+  margin-top: 4rem;
+}
+
+.footer-text .blue {
+  color: #6e06f2;
+}
+
+.footer-buttons {
+  display: flex;
+  justify-content: flex-start;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.footer-buttons button {
+  background-color: #24262f;
+  color: white;
+  padding: 13px;
+  border-radius: 10px;
+  border-style: none;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.footer-buttons button:nth-child(2) {
+  background-color: #ebebeb;
+  color: #24262f;
+}
+
+.rights {
+  font-size: 1rem;
+  color: #4e525a;
+  margin-top: 5rem;
+}
+
+.logo {
+  height: 2rem;
+  width: 2rem;
+}
+
+.contact-heading {
+  font-size: 3.5rem;
+  color: #24262f;
+  margin-top: 5.5rem;
+}
+
+.contact-heading .blue {
+  color: #6e06f2;
+}
+
+.input-group {
+  display: flex;
+  margin-bottom: 10px;
+  justify-content: space-evenly;
+}
+
+.input-group input[type="text"],
+input[type="email"] {
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: #ebebeb;
+  width: 35rem;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 0.5rem;
+}
+
+.input-group input[type="email"] {
+  margin-left: 1.5rem;
+}
+
+.message-box input[type="text"] {
+  width: 72.45rem;
+  height: 20rem;
+  background-color: #ebebeb;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.btn-send {
+  display: block;
+  width: 100%;
+  padding: 18px;
+  border-radius: 10px;
+  border-style: none;
+  background-color: #24262f;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+}

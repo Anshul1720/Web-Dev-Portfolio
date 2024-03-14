@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <div class="navbar">
+        <div>
+            <a href="#"><img class="logo" src="/icons/logo.png" alt="logo"></a>
+        </div>
+        <div class="middle-text">
+            <a href="#">Home</a>
+            <a href="#" id="navbar-projects-button">Projects</a> <!--on hover #24262f-->
+            <a href="#" id="navbar-about-button">About</a>
+        </div>
+        <div>
+            <a href="contact.html" id="theme-toggle">
+                <img class="chat-icon" src="/icons/chat.png" alt="chat-icon">
+            </a>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+
+
+    <!-- MAIN CONTENT -->
+    <div class="container">
+        <div class="text-container">
+            <p class="small-text1">
+                Hey, I'm Anshul 👋🏻
+            </p>
+            <h1 class="big-text1">
+                <span class="blue">Front</span>end
+            </h1>
+            <h1 class="big-text2">
+                Developer
+            </h1>
+            <p class="small-text2">
+                I'm a frontend developer based in India, I'll help you build beautiful websites your users will love.
+            </p>
+        </div>
+
+        <div class="circle-container">
+            <div class="circle-image" style="background-image: url('icons/Profile\ picture.jpeg')"></div>
+        </div>
+    </div>
+
+    <div class="buttons">
+        <a href="contact.html"><button>Get In Touch</button></a>
+        <button class="buttons">Browse Projects</button>
+    </div>
+    <!-- MAIN CONTENT -->
+
+    <!-- PROJECTS -->
+    <h2 id="projects-section" class="second-heading">
+        Projects<span class="blue">.</span>
+    </h2>
+
+    <div class="all-projects">
+        <div class="projects">
+            <div class="project-1-4" style="background-image: url('project-screenshots/project1.webp')"></div>
+            <p class="project-title"><span>TaskFlow</span></p>
+            <p class="project-1-4-desc">Task management system with drag-and-drop, real-time collaboration, and
+                responsive layout.</p>
+        </div>
+        <div class="projects">
+            <div class="project-2-3" style="background-image: url('project-screenshots/project2.webp')"></div>
+            <p class="project-title"><span>EcoCart</span></p>
+            <p class="project-2-3-desc">E-commerce platform promoting eco-friendly products with payment
+                integration.
+            </p>
+        </div>
+    </div>
+    <br>
+    <div class="all-projects">
+        <div class="projects">
+            <div class="project-2-3" style="background-image: url('project-screenshots/project3.webp')"></div>
+            <p class="project-title"><span>EventPlanner</span></p>
+            <p class="project-2-3-desc">Event planning web application, enabling users to organise and manage
+                events
+                effortlessly.</p>
+        </div>
+        <div class="projects">
+            <div class="project-1-4" style="background-image: url('project-screenshots/project4.webp')"></div>
+            <p class="project-title"><span>FoodieFinder</span></p>
+            <p class="project-1-4-desc">Modern-looking restaurant discovery platform featuring real-time search,
+                reviews, and ratings.</p>
+        </div>
+    </div>
+    <!-- PROJECTS -->
+
+    <!-- EXPERIENCE -->
+
+    <!-- <h2 class="third-heading">
+        Experience<span class="blue">.</span>
+    </h2>
+
+    <div class="experience">
+        <div class="companies">
+            <ul class="companies-list">
+                <li class="company" onclick="showDetails('VirSoftech Pvt. Ltd.')">VirSoftech Pvt. Ltd.</li>
+                <li class="company" onclick="showDetails('JIIT')">JIIT</li>
+                <li class="company" onclick="showDetails('Microsoft Azure')">Microsoft Azure</li>
+                <li class="company" onclick="showDetails('OPPO Mobiles India')">OPPO Mobiles India</li>
+            </ul>
+        </div>
+        <div class="details">
+            <p class="details-heading"></p>
+            <p class="details-year"></p>
+            <p class="details-decription"></p>
+        </div>
+    </div> -->
+    <!-- EXPERIENCE -->
+
+    <!-- SKILLS -->
+
+    <h2 class="fourth-heading">
+        Skills<span class="blue">.</span>
+    </h2>
+
+    <div class="all-skills">
+        <div class="skill-category">
+            <p class="category">Web Design</p>
+            <p class="skill">Responsive Design</p>
+            <p class="skill">UI/UX Design</p>
+            <p class="skill">User Research</p>
+        </div>
+        <div class="skill-category">
+            <p class="category">Frontend</p>
+            <p class="skill">CSS3</p>
+            <p class="skill">JavaScript</p>
+            <p class="skill">ReactJS</p>
+        </div>
+        <div class="skill-category">
+            <p class="category">Backend</p>
+            <p class="skill">NodeJS</p>
+            <p class="skill">MongoDB</p>
+            <p class="skill">ExpressJS</p>
+        </div>
+        <div class="skill-category">
+            <p class="category">Soft Skills</p>
+            <p class="skill">Effective Communication</p>
+            <p class="skill">Collaboration</p>
+            <p class="skill">Commitment</p>
+            <p class="skill">Leadership</p>
+        </div>
+    </div>
+
+    <!-- SKILLS -->
+
+    <!-- MY STORY -->
+
+    <h2 id="about-section" class="fifth-heading">
+        My Story<span class="blue">.</span>
+    </h2>
+    <p class="story">My journey as a front-end developer started back in 2022, working as a <span
+            class="blue">freelancer</span> for clients.
+    </p>
+    <p class="story">I decided to pursue B.Tech in Computer Science and Engineering
+        in 2019, and I completed my Graduation at <span class="blue">JIIT, Noida</span> in 2023.
+    </p>
+    <p class="story"> After some exciting months of work at many companies, I decided to transition to <span
+            class="blue">freelancing</span>, where I returned
+        what I love:
+        front-end development.
+    </p>
+    <p class="story">My <span class="blue">success</span> quickly compounded I started receiving many projects
+        from the
+        clients from various industries.
+    </p>
+    <p class="story">All these opportunities led me to gain good experience and improved my skillset.
+    </p>
+    <!-- MY STORY -->
+
+
+    <!-- BOTTOM NAVBAR -->
+    <div class="navbar-bottom">
+        <div class="middle-text">
+            <a href="#">Home</a> <!--#6e06f2-->
+            <a href="#">Projects</a> <!--on hover #24262f-->
+            <a href="#">About</a>
+        </div>
+        <div>
+            <a href="https://www.instagram.com/anshul.gupta._/" target="_blank">
+                <img class="chat-icon" src="icons/instagram.png" alt="instagram-icon">
+            </a>
+            <a href="https://www.linkedin.com/in/anshul-gupta-368944178/" target="_blank">
+                <img class="chat-icon" src="icons/linkedin (1).png" alt="linkedin-icon">
+            </a>
+            <a href="https://github.com/Anshul1720" target="_blank">
+                <img class="chat-icon" src="icons/github (1).png" alt="github-icon">
+            </a>
+        </div>
+    </div>
+    <!-- BOTTOM NAVBAR -->
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div>
+            <p class="footer-text">Interested in working together<span class="blue">?</span></p>
+            <div class="footer-buttons">
+                <button>Get In Touch</button>
+                <button>Browse Projects</button>
+            </div>
+        </div>
+        <p class="rights">
+            ©2024 All Rights Reserved.<br>
+            Made with 💜 by Anshul Gupta
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

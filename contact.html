@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <div class="navbar">
+        <div>
+            <a href="index.html"><img class="logo" src="/icons/logo.png" alt="logo"></a>
+        </div>
+        <div class="middle-text">
+            <a href="index.html">Home</a> <!--#6e06f2-->
+            <a href="#" id="navbar-projects-button">Projects</a> <!--on hover #24262f-->
+            <a href="#" id="navbar-about-button">About</a>
+        </div>
+        <div>
+            <a href="#" id="theme-toggle">
+                <img class="chat-icon" src="/icons/chat.png" alt="chat-icon">
+            </a>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+
+    <!-- CONTACT -->
+    <div class="contact-form">
+        <h2 class="contact-heading">Contact Me<span class="blue">.</span></h2>
+
+        <div class="input-group">
+            <input type="text" placeholder="Name">
+            <input type="email" placeholder="Email">
+        </div>
+
+        <div class="message-box">
+            <input type="text" placeholder="Message">
+        </div>
+
+        <button class="btn-send" onclick="sendEmail()">Send Now</button>
+    </div>
+    <!-- CONTACT -->
+
+    <script src="script.js"></script>
+</body>
+
+</html>
